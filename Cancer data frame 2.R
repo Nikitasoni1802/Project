@@ -83,6 +83,6 @@ summary(reg)
 # preddict the model
 prob_prep <- predict(object = reg,type="response",newdata=test_set[-2])
 
-cancer_model = lm(texture_mean ~ radius_mean + width, data = cancer
+cancer_model = lm(texture_mean ~ radius_mean + width, data = cancer)
                   
                   
